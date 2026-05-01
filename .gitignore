@@ -1,0 +1,21 @@
+# Archivos compilados por Maven
+target/
+
+# Archivos de clase Java
+*.class
+
+# Archivos empaquetados
+*.jar
+*.war
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
