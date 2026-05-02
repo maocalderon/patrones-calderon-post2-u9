@@ -5,8 +5,6 @@
 **Patrones de Diseño de Software · Post-Contenido 2 / Unidad 9**
 Universidad de Santander (UDES) — Ingeniería de Sistemas 2026
 
----
-
 ## Descripción del Proyecto
 
 Microservicio de gestión de productos construido con **Spring Boot 3.3.x**, que amplía el Post-Contenido 1 implementando:
@@ -29,8 +27,6 @@ El proyecto incluye:
 ---
 
 ## Estructura del Proyecto
-
-```
 calderon-post2-u9/
 ├── .github/
 │   └── workflows/
@@ -42,33 +38,32 @@ calderon-post2-u9/
 │   ├── evidencia-build-success.png
 │   └── evidencia-jacoco.png
 └── src/
-    ├── main/
-    │   ├── java/com/universidad/productosservice/
-    │   │   ├── ProductosServiceApplication.java
-    │   │   ├── domain/
-    │   │   │   └── Producto.java                    ← Entidad JPA
-    │   │   ├── repository/
-    │   │   │   └── ProductoRepository.java          ← JpaRepository
-    │   │   ├── service/
-    │   │   │   ├── ProductoService.java             ← Interfaz
-    │   │   │   └── ProductoServiceImpl.java         ← Implementación con validaciones
-    │   │   ├── controller/
-    │   │   │   └── ProductoController.java          ← REST Controller
-    │   │   └── exception/
-    │   │       └── GlobalExceptionHandler.java      ← @RestControllerAdvice
-    │   └── resources/
-    │       └── application.properties
-    └── test/
-        ├── java/com/universidad/productosservice/
-        │   ├── service/
-        │   │   └── ProductoServiceImplTest.java     ← 25 pruebas unitarias
-        │   ├── repository/
-        │   │   └── ProductoRepositoryTest.java      ← 8 pruebas @DataJpaTest
-        │   └── controller/
-        │       └── ProductoControllerTest.java      ← 7 pruebas @WebMvcTest
-        └── resources/
-            └── application-test.properties
-```
+├── main/
+│   ├── java/com/universidad/productosservice/
+│   │   ├── ProductosServiceApplication.java
+│   │   ├── domain/
+│   │   │   └── Producto.java
+│   │   ├── repository/
+│   │   │   └── ProductoRepository.java
+│   │   ├── service/
+│   │   │   ├── ProductoService.java
+│   │   │   └── ProductoServiceImpl.java
+│   │   ├── controller/
+│   │   │   └── ProductoController.java
+│   │   └── exception/
+│   │       └── GlobalExceptionHandler.java
+│   └── resources/
+│       └── application.properties
+└── test/
+├── java/com/universidad/productosservice/
+│   ├── service/
+│   │   └── ProductoServiceImplTest.java
+│   ├── repository/
+│   │   └── ProductoRepositoryTest.java
+│   └── controller/
+│       └── ProductoControllerTest.java
+└── resources/
+└── application-test.properties
 
 ---
 
@@ -251,6 +246,5 @@ La capa `service` alcanza **100% de cobertura** en instrucciones y branches, sup
 
 ![Build Success](evidencias/evidencia-build-success.png)
 
-### Reporte de cobertura JaCoCo
-
-![Reporte JaCoCo](evidencias/evidencia-jacoco.png)
+ ### Reporte de cobertura JaCoCo
+ ![Reporte JaCoCo](evidencias/evidencia-jacoco.png)
