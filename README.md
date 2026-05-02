@@ -20,7 +20,7 @@ El proyecto incluye:
 - **25 pruebas unitarias** en `ProductoServiceImplTest`
 - **8 pruebas de integración JPA** en `ProductoRepositoryTest` (`@DataJpaTest`)
 - **7 pruebas de integración Web** en `ProductoControllerTest` (`@WebMvcTest`)
-- **Total: 40 pruebas** — todas en verde ✅
+- **Total: 40 pruebas** — todas en verde 
 
 ---
 
