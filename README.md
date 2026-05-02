@@ -1,7 +1,5 @@
 # Productos Service — Unidad 9: Pruebas Unitarias y de Integración
 
-![CI](https://github.com/maocalderon/Calderon-post2-u9/actions/workflows/ci.yml/badge.svg)
-
 **Patrones de Diseño de Software · Post-Contenido 2 / Unidad 9**
 Universidad de Santander (UDES) — Ingeniería de Sistemas 2026
 
@@ -247,4 +245,5 @@ La capa `service` alcanza **100% de cobertura** en instrucciones y branches, sup
 ![Build Success](evidencias/evidencia-build-success.png)
 
  ### Reporte de cobertura JaCoCo
- ![Reporte JaCoCo](evidencias/evidencia-jacoco.png)
+ 
+![Reporte JaCoCo](evidencias/evidencia-jacoco.png)
